@@ -1,16 +1,19 @@
 /* Menu: */
+html, body, footer {margin: 0;
+padding: 0;}
+
 body {
 	min-width: 1000px;
 }
 
 .menu .logo img{
 	padding-top: 10px;
-	height: 80px;
+	height: 70px;
 }
 
 
 .menu {
-	height: 115px;
+	height: 85px;
 	top: 0;
 	width: 100%;
 	margin: auto;
@@ -53,8 +56,7 @@ a:focus { text-decoration: none; color:red; }
 	width: 100%;
 	height: 640px;
 	position: relative;
-	top:108px;
-	right: -10px;
+	top:78px;
 	background-image: url("no1-2.png");
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -76,13 +78,21 @@ a:focus { text-decoration: none; color:red; }
 	font-size: 30px;
 	color: #000000;
 	display: inline;
+	margin-top: 0px;
+}
+
+.no1 h1{
+	position: relative;
+	font-family: ACaslonPro-Regular;
+	color: #000000;
+	display: inline;
 }
 
 .text1 {
 	position: absolute;
 	width: 500px;
 	display: block;
-	top: 120px;
+	top: 60px;
 	left: 10%;
 }
 
@@ -96,14 +106,18 @@ a:focus { text-decoration: none; color:red; }
 }
 
 
-.no1 h1{
-	position: relative;
-	font-family: ACaslonPro-Regular;
-	font-size: 80px;
-	color: #000000;
-	display: inline;
+.small {
+	background-color: red;
+	font-size: 40px;
+	font-style: regular;
 }
 
+.big {
+	background-color: red;
+	font-size: 250px;
+	padding: 0px;
+	margin: 0px;
+}
 
 
 .no2 {
@@ -111,8 +125,7 @@ a:focus { text-decoration: none; color:red; }
 	border-top: 1px solid #DFDFDF;
 	width: 100%;
 	position: relative;
-	left: -10px;
-	top: 108px;
+	top: 78px;
 	background-image: url("no2.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -147,7 +160,7 @@ a:focus { text-decoration: none; color:red; }
 	position: absolute;
 	width: 500px;
 	display: block;
-	top: 100px;
+	top: 60px;
 	right: 8%;
 }
 
@@ -163,7 +176,13 @@ a:focus { text-decoration: none; color:red; }
 
 /* Kontakt: */
 .karta {
-	position: 
+	position: absolute;
+	top: 200px;
+	width: 800px;
+	height: 550px;
+	margin: 0 auto;
+	display: block;
+
 }
 
 .karta iframe{
@@ -174,20 +193,27 @@ a:focus { text-decoration: none; color:red; }
 
 /* Bryggeriet: */
 .kontakt {
+	position: relative;
+	display: block;
+	top: 178px;
 	width: 50%;
-	margin: 0 ;
-	overflow: hidden;}
+	margin: 0 auto ;}
 
 .kontakt p{
-	text-align: center;
+	position: relative;
+	font-family: ACaslonPro-Regular;
+	font-size: 30px;
+	color: #000000;
+	display: inline;
 }
 
 footer {
+	width: 100%;
 	background-color: white;
 	position: relative;
-	left: -10px;
-	bottom: -60px;
-	display: block;
+	/*left: -10px;*/
+	bottom: -24px;
+/*	display: block;*/
 	text-align: center;
 	font-family: BirchStd;
 	font-size: 40px;
@@ -211,14 +237,35 @@ margin-left: 25%;
 
 /*mobilt*/
 
-@media (min-width: 720px){
+@media (max-width: 920px){
 .text1 {
+	/*background-color: red;*/
 	width: 500px
+
 	}
+
+.no1 h3{
+	font-size: 40px;
 }
+}
+
+
 
 /*@media screen and  (max-width: 600px){
 .text1 {
 	width: 400px
 	}
 }*/
+
+
+.instagram {
+	float: center;
+	top: 200px;
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#Instafeed img {width: 300px;
+padding: 10px;}
