@@ -107,13 +107,13 @@ a:focus { text-decoration: none; color:red; }
 
 
 .small {
-	background-color: red;
+	
 	font-size: 40px;
 	font-style: regular;
 }
 
 .big {
-	background-color: red;
+	
 	font-size: 250px;
 	padding: 0px;
 	margin: 0px;
