@@ -210,22 +210,17 @@ a:focus { text-decoration: none; color:red; }
 	display: block;
 }
 /* Bryggeriet: */
-.text {
+.text-bryggeriet {
+	width: 800px;
 	height: 1000px;
 	display: block;
 
 }
 
-.bryggeri-text p{
-	height: 500px;
-	float: center;
-	position: relative;
-}
-
 /* Om oss: */
-.omoss {
+.text-omoss {
 	height: 500px;
-	width: 500px;
+	width: 800px;
 	color: black;
 	margin: 0 auto;
 
