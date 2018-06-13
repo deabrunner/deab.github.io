@@ -4,6 +4,7 @@ padding: 0;}
 
 body {
 	min-width: 1000px;
+
 }
 
 .menu .logo img{
@@ -56,7 +57,37 @@ a { color:black; text-decoration: none;}
 a:visited { text-decoration: none; color:black; }
 a:hover { text-decoration: none; color: #9C8888; }
 a:focus { text-decoration: none; color:red; }
+
+/* Popup: */
+
+.swal-button {
+  	padding: 7px 19px;
+  	width: 200px;
+  	border-radius: 10px;
+	background-image: linear-gradient(90deg, #F3B404 0%, #EE4306 100%);
+	border-radius: 6px;;
+  	font-size: 12px;
+  	border: 1px solid ;
+  	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.swal-overlay {
+  background-color: rgba(153, 140, 140, 0.85);
+}
+
+
+.swal-text {
+  padding: 17px;
+  margin: 22px;
+  font-family: ACaslonPro-Regular;
+  text-align: center;
+  font-size: 30px;
+  color: #61534e;
+}
 /* Main: */
+
+
 
 .no1 {
 
@@ -115,13 +146,11 @@ a:focus { text-decoration: none; color:red; }
 
 
 .small {
-	
 	font-size: 40px;
 	font-style: regular;
 }
 
 .big {
-	
 	font-size: 250px;
 	padding: 0px;
 	margin: 0px;
@@ -180,14 +209,44 @@ a:focus { text-decoration: none; color:red; }
 .text2 button{
 	display: block;
 }
+/* Bryggeriet: */
+.text {
+	height: 1000px;
+	display: block;
 
+}
+
+.bryggeri-text p{
+	height: 500px;
+	float: center;
+	position: relative;
+}
+
+/* Om oss: */
+.omoss {
+	height: 500px;
+	width: 500px;
+	color: black;
+	margin: 0 auto;
+
+}
+
+p{
+	top: 200px;
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	color: black;
+	font-family: ACaslonPro-Regular;
+	font-size: 30px;
+}
 
 /* Kontakt: */
 .karta {
-	position: absolute;
-	top: 200px;
+	position: relative;
+	top: 100px;
 	width: 800px;
-	height: 550px;
+	height: 750px;
 	margin: 0 auto;
 	display: block;
 
@@ -199,11 +258,11 @@ a:focus { text-decoration: none; color:red; }
 	height: 550px;
 }
 
-/* Bryggeriet: */
 .kontakt {
 	position: relative;
 	display: block;
-	top: 178px;
+	height: 300px;
+	top: 0px;
 	width: 50%;
 	margin: 0 auto ;}
 
@@ -255,14 +314,17 @@ margin-left: 25%;
 .no1 h3{
 	font-size: 40px;
 }
-	.text1 button{
+
+.text1 button{
 	width: 330px;
 	height:  75px;
 }
+
 .menu ul{
 	width: 100%;
 	margin: auto;
 }
+
 }
 
 
