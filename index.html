@@ -2,18 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>RB</title>
+	<title>Reinklou bryggerier</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="pop.js"></script>
 	
 </head>
 <body>
-
 	<section class="menu">
 		<ul>
-			<li class="active"><a href="index.html">Våra öler</a></li>
+			<li class="active" id="active"><a href="index.html">Våra öler</a></li>
 			<li class="nav"><a href="Bryggeri.html">Bryggeriet</a></li>
 			<li class="logo"><a href="index.html"><img src="logo.png"></a></li>
-			<li class="nav"><a href="Bryggeri.html">Om oss</a></li>
+			<li class="nav"><a href="Omoss.html">Om oss</a></li>
 			<li class="nav"><a href="Kontakt.html">Kontakt</a></li>
 		</ul>
 	</section>
@@ -52,4 +53,24 @@
 
 	<footer>Reinklou Bryggerier 2018</footer>
 </body>
+// <script type="text/javascript">
+// var choice = document.cookie
+// if (choice != "choice=yes") {
+// swal("Denna sida innehåller information om alkoholhaltiga drycker, Bekräfta att du är 20 år eller äldre.",
+// {
+// buttons: true,
+// dangerMode: true,
+// })
+// .then((value) => {
+// 	if (value == null) {
+// 		window.location.replace("http://google.com");}
+// 	else {
+// 		document.cookie = "choice=yes"	
+// 	}	
+	
+// 	swal(`The returned value is: ${value}`);
+
+// })};
+
+// </script>
 </html>

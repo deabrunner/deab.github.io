@@ -4,6 +4,20 @@
 	<meta charset="utf-8">
 	<title>Reinklou bryggerier</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="insta.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="pop.js"></script>
+	<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId:  '278553385',
+        clientId: '8b28242b8a9f4574bc3b9f4983a9d9ac',
+        accessToken: '278553385.1677ed0.55a5f0f28332479883f7bb219b75644a',
+        target: "Instafeed",
+        resolution: "standard_resolution",
+    });
+    feed.run();
+	</script>
 </head>
 <body>
 	<section class="menu">
@@ -11,14 +25,25 @@
 			<li class="nav"><a href="index.html">Våra öler</a></li>
 			<li class="active"><a href="Bryggeri.html">Bryggeriet</a></li>
 			<li class="logo"><a href="index.html"><img src="logo.png"></a></li>
-			<li class="nav"><a href="om.html">Om oss</a></li>
+			<li class="nav"><a href="omoss.html">Om oss</a></li>
 			<li class="nav"><a href="Kontakt.html">Kontakt</a></li>
 		</ul>
 	</section>
-
-	<section class="instagram">
-	<div id="Instafeed"></div>
+	<section class="text">
+		<p>V0.1<br>
+Till en början var det ett ölbryggar-kit i köket...
+<br>
+<br>
+V1.0<br>
+En expansion var av intresse och från ett badrum och matkällare renoverades det upp till att bli ett väldigt litet med effektivt bryggeri, man möts av professionell utrustning men ändå med en mysig stämning med varma lampor och trä detaljer. Allt man kan tänkas behövas finns där och man kan snabbt ställa om från brygg till tapp med smidiga hyllor och förvaringsutrymmen.
+<br>
+<br>
+V2.0<br>
+Ännu en satsning på expansion gjord och med kärleken till ranchen där vi även bor ville vi stanna här. Inga fler badrum att renovera så lösningen fick bli containrar. Isolerade, våtrums anpassande med golvmatta, avlopp, enkel anslutning av el och vatten. </p>
 	</section>
+	<!-- section class="instagram">
+		<div id="Instafeed"></div>
+	</section> -->
 	<footer>Reinklou Bryggerier 2018</footer>
 </body>
 </html>
