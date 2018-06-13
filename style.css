@@ -211,7 +211,7 @@ a:focus { text-decoration: none; color:red; }
 }
 /* Bryggeriet: */
 .text-bryggeriet {
-	width: 900px;
+	width: 800px;
 	height: 1000px;
 	display: block;
 	margin: 0 auto;
@@ -221,7 +221,7 @@ a:focus { text-decoration: none; color:red; }
 /* Om oss: */
 .text-omoss {
 	height: 500px;
-	width: 900px;
+	width: 800px;
 	color: black;
 	margin: 0 auto;
 
@@ -258,7 +258,7 @@ p{
 	display: block;
 	height: 300px;
 	top: 0px;
-	width: 900px;
+	width: 800px;
 	margin: 0 auto ;}
 
 .kontakt p{
