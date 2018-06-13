@@ -214,6 +214,7 @@ a:focus { text-decoration: none; color:red; }
 	width: 800px;
 	height: 1000px;
 	display: block;
+	margin: 0 auto;
 
 }
 
