@@ -11,7 +11,5 @@ dangerMode: true,
 	else {
 		document.cookie = "choice=yes"	
 	}	
-	
-	swal(`The returned value is: ${value}`);
 
 })};
